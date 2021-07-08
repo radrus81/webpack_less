@@ -1,0 +1,52 @@
+{
+  "name": "less_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack serve --mode development --open"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "autoprefixer": "^10.2.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "css-mqpacker": "^7.0.0",
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-webpack-plugin": "^2.5.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

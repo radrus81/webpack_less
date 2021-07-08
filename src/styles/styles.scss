@@ -1,0 +1,27 @@
+$color: green;
+
+@import 'roboto.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+
+  color: green;
+}
+
+.box {
+  h2 {
+    color: $color;
+  }
+}
